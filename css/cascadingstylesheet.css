@@ -1,0 +1,84 @@
+h1 {
+    color: blue;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: purple;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 30px;
+}
+
+h3 {
+    color:blueviolet;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.remove-bullet {
+    list-style-type: none; margin: 00; padding: 0;
+}
+
+.float {
+    float:center
+}
+
+.a {
+    display: block;
+    padding: 8px;
+}
+
+.horizontal {
+    display: inline;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside
+}
+
+.center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+.fs-large {
+    font-size: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 100px 0 rgba(106, 26, 253, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+  }
+
+.price {
+    color: rgba(0, 128, 43, 0.781);
+    font-size: 22px;
+  }
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.card button:hover {
+    opacity: 0.7;
+  }
